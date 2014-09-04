@@ -1,7 +1,7 @@
 angular_oauthio_wrapper.dart
 ============================
 
-An AngularDart wrapper around OAuth.io's oauth.js library
+An AngularDart service wrapper around OAuth.io's oauth.js library
 
 
 Bind your config in your module, ie:
