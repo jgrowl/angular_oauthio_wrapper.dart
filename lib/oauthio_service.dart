@@ -44,9 +44,8 @@ class OauthioService {
   OauthioConfig _config;
   var result;
 
-  OauthioService(OauthioConfig config) {
-    _config = config;
-    OAuth.callMethod('initialize', [config.publicKey]);
+  OauthioService(this._config) {
+    OAuth.callMethod('initialize', [_config.publicKey]);
   }
 
   Future popup(String provider) {
