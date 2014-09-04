@@ -21,9 +21,9 @@ abstract class OauthioConfig {
 
 @Injectable()
 class OmniauthOauthioConfig extends OauthioConfig {
-  String base;                      // ie. http://localhost
+  String base;                      // ie. localhost
   int port;                         // ie. 80
-  String pathPrefix;                // ie. /users/auth
+  String pathPrefix;                // ie. users/auth
 
   OmniauthOauthioConfig(String publicKey, this.base, this.port, this.pathPrefix) : super(publicKey);
 
