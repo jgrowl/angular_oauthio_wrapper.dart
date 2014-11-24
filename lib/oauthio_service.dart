@@ -1,4 +1,4 @@
-library oauthio_service;
+library angular.oauthio_wrapper.service;
 
 import 'dart:js';
 import 'dart:async';
